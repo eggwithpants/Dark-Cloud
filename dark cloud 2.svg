@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1600 900" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1.06601,30.6517,-36.7654)">
+        <path d="M757.59,413.142C711.418,421.407 717.635,464.78 717.635,464.78C717.635,464.78 657.522,459.952 656.647,516.316C656.25,541.84 673.45,550.037 686.503,552C728.719,558.35 887.253,558.911 929,552C942.888,549.701 957.05,531.57 948.409,507.011C938.827,479.78 898.891,481.592 898.891,481.592C898.891,481.592 911.597,446.17 877.792,429.552C849.793,415.787 819.748,440.87 819.748,440.87C819.748,440.87 807.06,404.286 757.59,413.142Z" style="fill:rgb(255,0,52);"/>
+    </g>
+    <g transform="matrix(1.30908,0,0,1.30908,-303.421,-172.148)">
+        <g transform="matrix(5.95592,0,0,5.95592,-3741.42,-2300.26)">
+            <text x="792.291px" y="468.47px" style="font-family:'FredokaOne-Regular', 'Fredoka One';font-size:12px;fill:rgb(255,0,52);">Dark</text>
+        </g>
+        <g transform="matrix(5.95592,0,0,5.95592,-3714.53,-2223.83)">
+            <text x="790.113px" y="466.719px" style="font-family:'FredokaOne-Regular', 'Fredoka One';font-size:12px;fill:rgb(255,0,52);">Cloud</text>
+        </g>
+    </g>
+</svg>

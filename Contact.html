@@ -4,9 +4,9 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
     </style>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-    </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <div class="navBar">
     <a class="active" href="Contact.html">Contact</a>
     <a href="">Websites</a>
@@ -15,8 +15,87 @@
   </div>
 </head>
 <body>
-    <h1>Welcome to Dark Cloud</h1>
+    <h1>Contact us</h1>
     <p>
-      Here at Dark Cloud, you can access many of our websites, all of them for a different purpose.
+      You can contact us at <a href="mailto:darkcloudsites@gmail.com" id = "contact">our email.</a> or join the <a href="">Dark Cloud Discord</a>.
     </p>
 </body>
+<style>
+  html{
+min-height: 100%;
+position:relative;
+}
+body {
+height: 100%;
+font-family: Nunito;
+background: #000000;
+margin: 0px;
+}
+::selection {
+background: rgb(68, 0, 255);
+}
+::-moz-selection { /* Code for Firefox */
+background: rgb(68, 0, 255);
+}
+  #home{
+  float: left;
+  font-size: 22px;
+  font-weight: bold;
+}
+img{
+width: 300px;
+user-select: none;
+}
+.navBar {
+background-color: #ffffff;
+overflow: hidden;
+position: fixed;
+top: 0;
+width: 100%;
+z-index:5;
+}
+
+/* Style the links inside the navigation bar */
+.navBar a {
+float: left;
+color: #000000;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 22px;
+transition-duration: 0.5s;
+float: right;
+user-select: none;
+}
+
+/* Change the color of links on hover */
+.navBar a:hover {
+color: rgba(255,0,52,1);
+}
+
+/* Add a color to the active/current link */
+.navBar a.active {
+color: rgb(255, 255, 255);
+background-color: rgba(255,0,52,1);
+}
+h1{
+  color: rgba(255,0,52,1);
+  margin-top: 100px;
+  font-size: 100px;
+  text-align: center;
+  font-family: Fredoka One;
+  letter-spacing: 5px;
+}
+p{
+color:rgb(255, 255, 255);
+font-size: 20px;
+margin-left: 50px;
+text-align: center;
+}
+img{
+margin: -70;
+}
+#contact{
+  color: white;
+}
+</style>

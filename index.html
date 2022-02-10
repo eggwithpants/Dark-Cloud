@@ -4,9 +4,11 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
     </style>
-  <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <div class="navBar">
-    <a href="">Contact</a>
+    <a href="Contact.html">Contact</a>
     <a href="">Websites</a>
     <a class="active" href="index.html">Home</a>
     <a href="index.html" id="home"><img src="dark cloud.svg"></a>
@@ -17,6 +19,10 @@
     <p>
       Here at Dark Cloud, you can access many of our websites, all of them for a different purpose.
     </p>
+    <div id = "btns">
+    <a href=""></a>
+    <a href="Contact.html"><button>Contact Us</button></a>
+  </div>
 </body>
 <style>
     html{
@@ -30,10 +36,10 @@ body {
   margin: 0px;
 }
 ::selection {
-  background: #00f7ff;
+  background: rgb(68, 0, 255);
 }
 ::-moz-selection { /* Code for Firefox */
-  background: #00f7ff;
+  background: rgb(68, 0, 255);
 }
     #home{
     float: left;
@@ -68,7 +74,7 @@ img{
 
 /* Change the color of links on hover */
 .navBar a:hover {
-  color: rgba(255,0,52,1);
+  color: #ff0034;
 }
 
 /* Add a color to the active/current link */
@@ -87,9 +93,34 @@ h1{
 p{
   color:rgb(255, 255, 255);
   font-size: 20px;
-  margin-left: 50px;
+  text-align: center;
 }
 img{
   margin: -70;
+  margin-left: -110px;
+}
+button{
+  background: none;
+  color: #ff0034;
+  border: 2.5px solid #ff0034;
+  font-size: 35px;
+  border-radius: 15px;
+  text-align: center;
+  cursor: pointer;
+  mix-blend-mode: screen;
+  font-family: Nunito;
+  transition-duration: 0.5s;
+  margin-top: 30px;
+  padding: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  user-select: none;
+}
+button:hover{
+  background: #ff0034;
+  color: black;
+}
+#btns{
+  text-align: center;
 }
 </style>
