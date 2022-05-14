@@ -1,126 +1,89 @@
-<title>Dark Cloud</title>
+<!DOCTYPE html>
+<title>subLink</title>
 <head>
-  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
-  <style>
+<img src="subLinkdc.png">
+</head>
+<style>
     @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
     </style>
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <div class="navBar">
-    <a href="Contact.html">Contact</a>
-    <a href="">Websites</a>
-    <a class="active" href="index.html">Home</a>
-    <a href="index.html" id="home"><img src="dark cloud.svg"></a>
-  </div>
-</head>
-<body>
-    <h1>Welcome to Dark Cloud</h1>
-    <p>
-      Here at Dark Cloud, you can access many of our websites, all of them for a different purpose.
-    </p>
-    <div id = "btns">
-    <a href=""></a>
-    <a href="Contact.html"><button>Contact Us</button></a>
-  </div>
-</body>
+<html>
+    <script>
+
+function searchbox() {
+    var searchURL = document.getElementById("URL").value;
+    if (document.getElementById('womginx').checked) {
+        window.location.href =  'https://womginx.repl.co/main/'+searchURL;
+    } else {
+        window.location.href = 'https://ultraviolet-node-2.snoopy1035.repl.co/service/http%3A%2F%2F'+searchURL + '%2F';
+    }
+}
+    </script>
+
+    <form name="myform">   
+        <input type="radio" id="womginx" name="proxyname" value="one">
+        <label for="womginx">womginx</label>
+
+        <input type="radio" id="ultraviolet" name="proxyname" value="one">
+        <label for="ultraviolet">ultraviolet</label>
+        <br>
+        <input type="text" placeholder=" Enter a URL" name="search" id="URL">
+<br>
+        <button type="reset" onclick="searchbox()">Go</button>   
+
+
+    </form>  
+
+</html>
+
 <style>
-    html{
-  min-height: 100%;
-  position:relative;
-}
-body {
-  height: 100%;
-  font-family: Nunito;
-  background: #000000;
-  margin: 0px;
-}
-::selection {
+    ::selection {
   background: rgb(68, 0, 255);
 }
 ::-moz-selection { /* Code for Firefox */
   background: rgb(68, 0, 255);
 }
-    #home{
-    float: left;
-    font-size: 22px;
-    font-weight: bold;
-}
-img{
-  width: 300px;
-  user-select: none;
-}
-.navBar {
-  background-color: #ffffff;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index:5;
-}
+    body{
+        background: black;
+        color: #ff0034;
+        font-family: Nunito;
+    }
+    #URL{
+        background: none;
+        border: 3.5px solid white;
+        color: #ff0034;
+        outline: none;
+        text-align: center;
+        font-size: 24px;
+        border-radius: 30px;
+        font-family: nunito;
+        margin-top: 30px;
+        width: 350px;
+    }
+    form{
+        text-align: center;
+        font-size: 20px;
+    }
+    ::placeholder{
+        color: white;
+    }
+    button{
+        background: none;
+        border: none;
+        font-size: 30px;
+        cursor: pointer;
+        color: white;
+        border: 3.5px solid white;
+        border-radius: 12px;
+        transition-duration: .5s;
+        margin-top: 30px;
+    }
+    button:hover{
+        background: white;
+        color:black;
+    }
 
-/* Style the links inside the navigation bar */
-.navBar a {
-  float: left;
-  color: #000000;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 22px;
-  transition-duration: 0.5s;
-  float: right;
-  user-select: none;
-}
 
-/* Change the color of links on hover */
-.navBar a:hover {
-  color: #ff0034;
-}
-
-/* Add a color to the active/current link */
-.navBar a.active {
-  color: rgb(255, 255, 255);
-  background-color: rgba(255,0,52,1);
-}
-h1{
-    color: rgba(255,0,52,1);
-    margin-top: 100px;
-    font-size: 100px;
-    text-align: center;
-    font-family: Fredoka One;
-    letter-spacing: 5px;
-}
-p{
-  color:rgb(255, 255, 255);
-  font-size: 20px;
-  text-align: center;
-}
-img{
-  margin: -70;
-  margin-left: -110px;
-}
-button{
-  background: none;
-  color: #ff0034;
-  border: 2.5px solid #ff0034;
-  font-size: 35px;
-  border-radius: 15px;
-  text-align: center;
-  cursor: pointer;
-  mix-blend-mode: screen;
-  font-family: Nunito;
-  transition-duration: 0.5s;
-  margin-top: 30px;
-  padding: 0;
-  padding-left: 30px;
-  padding-right: 30px;
-  user-select: none;
-}
-button:hover{
-  background: #ff0034;
-  color: black;
-}
-#btns{
-  text-align: center;
-}
 </style>
